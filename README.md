@@ -1,4 +1,11 @@
 # Lightning
-Quick script to extract lighting strikes from MP4 Videos
+Quick script to extract lighting strikes from MP4 Video
 
-The code still has a lot of issues, that I am slowly cleaning up. More to come!
+sq is a threshhold to determine the diffrence between a dark frame and a lightning frame.
+
+```python
+import lightning
+
+lightningExport(sq,filename) #lightningExport(110,'GOPRO10') 110 works good for most cases, might play with it to perfect it for you
+
+```
