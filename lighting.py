@@ -5,7 +5,7 @@ import scipy.misc
 import time
 from datetime import datetime
 
-def lightningExport(thresh,sq,filename):
+def lightningExport(sq,filename):
     start_time = datetime.now()
     vid = imageio.get_reader(filename,  'ffmpeg')
     num_frames=vid._meta['nframes']
