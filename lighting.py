@@ -50,4 +50,4 @@ def lightningExport(sq,filename):
     end_time = datetime.now()
     print('Duration: {}'.format(end_time - start_time))
 
-lightningExport(100,110)
+#lightningExport(100,110)
