@@ -92,7 +92,8 @@ for filename in ff:
     plt.title('%s: %s ' %(filename, dur)) 
       
     # function to show the plot 
-    plt.savefig('graph_%s.png' % (filename.splt('.')[0]), dpi=200)
+    plt.savefig('graph_%s.png' % (filename.split('.')[0]), dpi=200)
+    plt.clf()
     
     '''
     print numpy.average(array)
